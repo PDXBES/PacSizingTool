@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="BesAsm.Swsp.PacSizingTool.Facility">
+    <Position X="1" Y="2" Width="5.5" />
+    <Compartments>
+      <Compartment Name="Protected" Collapsed="true" />
+      <Compartment Name="Internal" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>A45EAEABEA/lWVUAgAgAQAAAEAIIgAAQo6EhAQESAQg=</HashCode>
+      <FileName>Facility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BesAsm.Swsp.PacSizingTool.PacExecutor">
+    <Position X="1" Y="0.5" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PacExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BesAsm.Swsp.PacSizingTool.PacResults">
+    <Position X="7" Y="6" Width="5" />
+    <Compartments>
+      <Compartment Name="Internal" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEABAAAAAAAkBAAAAAAAEBAAAAAACAAAEIgAAAAAGA=</HashCode>
+      <FileName>PacResults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BesAsm.Swsp.PacSizingTool.Catchment">
+    <Position X="7" Y="2" Width="5" />
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAIAgBAQAEAAQAAEAAAAQAAAAAKCEEYACgABAAACA=</HashCode>
+      <FileName>Catchment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BesAsm.Swsp.PacSizingTool.StormEventResults">
+    <Position X="12.25" Y="2" Width="4" />
+    <Compartments>
+      <Compartment Name="Internal" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAEAAAAAAAAAIAAAAAAAAAAAAAAAACAAIAAAAAEAEA=</HashCode>
+      <FileName>ReservoirRouter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BesAsm.Swsp.PacSizingTool.Hydrograph">
+    <Position X="12.25" Y="4.75" Width="4" />
+    <Compartments>
+      <Compartment Name="Internal" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAABUAACAIAAAAAAABQAAAAAA=</HashCode>
+      <FileName>Hydrograph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
