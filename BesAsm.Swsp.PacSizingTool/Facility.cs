@@ -797,8 +797,6 @@ namespace BesAsm.Swsp.PacSizingTool
                       case FacilityShape.UserDefined:
                           if (facility.SurfaceAreaAtStorageDepth1SqFt < facility.BottomAreaSqFt)
                               invalidated.Push("Surface Area at Storage Depth 1 must be greater than or equal to the Bottom Area.");
-                          if (facility.FreeboardIn < 0)
-                              invalidated.Push("Freeboard must be greater than or equal to zero.");
                           if (facility.HasSecondaryOverflow && (facility.SurfaceAreaAtStorageDepth2SqFt < facility.SurfaceAreaAtStorageDepth1SqFt))
                               invalidated.Push("Surface Area at Storage Depth 2 must be greater than or equal to the Surface Area at Storage Depth 1.");
                           break;
